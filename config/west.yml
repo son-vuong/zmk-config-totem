@@ -7,10 +7,10 @@ manifest:
     - name: urob
       url-base: https://github.com/urob
   projects:
-    - name: zmk
-      remote: zmkfirmware
-      revision: main
-      import: app/west.yml
+    #- name: zmk
+    #  remote: zmkfirmware
+    #  revision: main
+    #  import: app/west.yml
     - name: zmk
       remote: petejohanson
       revision: feat/pointers-with-input-processors
