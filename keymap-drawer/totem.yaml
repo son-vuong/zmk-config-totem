@@ -21,7 +21,7 @@ layers:
   - {t: K, h: RSHIFT}
   - {t: L, h: RIGHT ALT}
   - {t: ;, h: RIGHT GUI}
-  - {t: ▽, type: trans}
+  - '&ShiftCapsL'
   - Z
   - X
   - C
@@ -32,7 +32,7 @@ layers:
   - ','
   - .
   - /
-  - {t: ▽, type: trans}
+  - RCTRL
   - LEFT ALT
   - {t: BACKSPACE, h: NUMBER}
   - {t: DELETE, h: LEFT CONTROL}
@@ -60,7 +60,7 @@ layers:
   - {t: '8', h: RIGHT SHIFT}
   - {t: '9', h: RIGHT ALT}
   - {t: '0', h: RIGHT GUI}
-  - {t: ▽, type: trans}
+  - '&ShiftCapsL'
   - ESCAPE
   - '`'
   - \
@@ -71,7 +71,7 @@ layers:
   - '['
   - ']'
   - ''''
-  - {t: ▽, type: trans}
+  - RCTRL
   - LEFT ALT
   - {type: held}
   - {t: DELETE, h: LCTRL}
@@ -99,7 +99,7 @@ layers:
   - DOWN
   - RIGHT
   - INSERT
-  - {t: ▽, type: trans}
+  - '&ShiftCapsL'
   - VOLUME DOWN
   - VOLUME UP
   - LEFT SHIFT
@@ -110,7 +110,7 @@ layers:
   - F12
   - PREV
   - NEXT
-  - {t: ▽, type: trans}
+  - RCTRL
   - LEFT ALT
   - {t: BACKSPACE, h: LEFT SHIFT}
   - {t: DEL, h: LEFT CONTROL}
