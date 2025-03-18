@@ -84,10 +84,10 @@ layers:
   - '&mmv MOVE_UP'
   - '&msc SCRL_DOWN'
   - '&mkp MB5'
-  - '&mmv MOVE_UP'
   - PAGE UP
   - UP ARROW
   - PAGE DOWN
+  - {t: ▽, type: trans}
   - CONFIG
   - '&mkp LCLK'
   - '&mmv MOVE_LEFT'
