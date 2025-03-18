@@ -167,12 +167,15 @@
         };
 
         ShiftCapsL: ShiftCapsL {
-            compatible = "zmk,behavior-tap-dance";
             display-name = "Shift/CapsL";
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
             bindings = <&kp LEFT_SHIFT>, <&kp CAPS>;
 
-          
+
+            flavor = "balanced";
             tapping-term-ms = <HM_TAPPING_TERM>;
+            quick-tap-ms = <HM_QUICK_TAP>;
     
         };
 
