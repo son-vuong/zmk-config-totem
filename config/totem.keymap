@@ -219,7 +219,7 @@
             label = "NAV";
 
             bindings = <
-            &mkp MB4              U_WH_U            U_MS_U             U_WH_D                                &mkp MB5                               &kp PAGE_UP            &kp UP_ARROW         &kp PAGE_DOWN            &trans               &mo 3
+            &mkp MB4              U_WH_U            U_MS_U             U_WH_D                                &mkp MB5                               &trans                 &kp PAGE_UP          &kp UP_ARROW             &kp PAGE_DOWN        &mo 3
             &mkp LCLK             U_MS_L            U_MS_D             U_MS_R                                &mkp RCLK                              &kp HOME               &kp LEFT             &kp DOWN                 &kp RIGHT            &kp INSERT 
     &trans  &kp C_VOLUME_DOWN     &kp C_VOLUME_UP   &kp LEFT_SHIFT     &hm_shift_l LEFT_GUI C_MUTE           &kp C_PLAY_PAUSE                       &kp END                &kp F11              &kp F12                  &kp C_PREV           &kp C_NEXT      &trans
                                                     &kp LEFT_ALT       &hm_shift_l LEFT_SHIFT BACKSPACE      &hm_l LEFT_CONTROL DEL                 &hm_r RCTRL ENTER      &trans               &hm_alt_r RIGHT_ALT TAB
