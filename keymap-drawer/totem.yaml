@@ -21,7 +21,7 @@ layers:
   - {t: K, h: RSHIFT}
   - {t: L, h: RIGHT ALT}
   - {t: ;, h: RIGHT GUI}
-  - '&ShiftCapsL'
+  - {t: CAPS, h: LEFT SHIFT}
   - Z
   - X
   - C
@@ -60,7 +60,7 @@ layers:
   - {t: '8', h: RIGHT SHIFT}
   - {t: '9', h: RIGHT ALT}
   - {t: '0', h: RIGHT GUI}
-  - '&ShiftCapsL'
+  - {t: CAPS, h: LEFT SHIFT}
   - ESCAPE
   - '`'
   - \
@@ -99,7 +99,7 @@ layers:
   - DOWN
   - RIGHT
   - INSERT
-  - '&ShiftCapsL'
+  - {t: CAPS, h: LEFT SHIFT}
   - VOLUME DOWN
   - VOLUME UP
   - LEFT SHIFT
