@@ -171,7 +171,7 @@
             display-name = "Shift/CapsL";
             bindings = <&kp LEFT_SHIFT>, <&kp CAPS>;
 
-            flavor = "balanced";
+          
             tapping-term-ms = <HM_TAPPING_TERM>;
             quick-tap-ms = <HM_QUICK_TAP>;
         };
